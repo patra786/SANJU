@@ -1,0 +1,39 @@
+.image-self {
+    border-radius: 50%;
+}
+
+.top-scroller {
+    position: fixed;
+    bottom: 100px;
+    left: 20px;
+    font-size: 20px;
+    padding: 2px;
+    display: none;
+    z-index: 2;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgba(0,0,0,.35);
+    color: #fff;
+    line-height: 40px;
+
+}
+ .top-scroller:hover {
+    background: rgba(0,0,0,.6);
+}
+.header img {
+    float: left;
+    width: 80px;
+    height: 70px;
+    padding-right: 20px;
+    background: #2c3e50;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+  
